@@ -9,7 +9,8 @@
 <body>
     <p>git的初始化</p>
     <script src="..\js\index.js"></script>
-    <!-- git init:在当前文件下 初始一个git项目
+    <!--
+         git init:在当前文件下 初始一个git项目
          git status:查看当前文件下进行过的修改
          git add 文件名：把当前文件提交到暂存区 git add .:把当前目录下所有的文件提交到暂存区
          git commit -m "信息":把当前项目提交到master版本库中    信息规范：新功能：feat  修改bug：fix  文本文档：docs  临时提交：tmp （分支）-->
@@ -19,5 +20,13 @@
          git log --pretty=oneline :查看版本号
          git reset --hard 版本号：返回到这个版本号的版本
          git reset --hard HEAD^ :返回到上一个版本-->
+    <p>第二次git使用 增删改查</p>
+    <!-- 
+         git restore --staged 文件名：文提交到暂存区时，撤销。
+         git reset --soft HEAD^ :撤销master至上一个版本
+         文件夹被删除了 1.版本回滚 2.彻底删除 ：git rm 文件名
+         
+        -->
+         
 </body>
 </html>
